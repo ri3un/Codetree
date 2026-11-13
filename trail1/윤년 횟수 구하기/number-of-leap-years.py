@@ -8,6 +8,7 @@ for i in range(1, N+1):
         cnt += 1
     else:
         pass
+        
     if i % 100 == 0 and i % 400 != 0:
         cnt -= 1
 
